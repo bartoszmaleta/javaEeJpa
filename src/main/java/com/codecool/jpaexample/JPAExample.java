@@ -47,14 +47,18 @@ public class JPAExample {
         System.out.println("\n### Aladár saved.\n");
     }
 
+    public static void loadClass(EntityManager em){
+        em.clear();
+        Klass klass = em.find(Klass.class, 1L);
+    }
+
     public static void main(String[] args) {
 
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("jpaexamplePU");
         EntityManager em = emf.createEntityManager();
 
         populateDb(em);
-        em.clear();
-
+        em.clear(); //clear hibernate cache - force next statements to read data from db
 
         Student foundStudent1 = em.find(Student.class, 1L);
         System.out.println("\n--Found student #1");
@@ -75,6 +79,8 @@ public class JPAExample {
         Address foundAddress2 = em.find(Address.class, 2L);
         System.out.println("--Found address #2");
         System.out.println("----address----" + foundAddress2.getAddr());
+
+//        loadClass(em);
 
         em.close();
         emf.close();

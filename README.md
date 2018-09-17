@@ -40,3 +40,10 @@ Follow the instructions **point by point**, run the code and **check the results
 #### Enums
 
 1. Create a new enumerated class called `CCLocation` with values `MISKOLC`, `BUDAPEST`, and `KRAKOW`! Add it as an attribute to `Klass` and set it in its constructor! How does it get represented in the database? Use the `@Enumerated` annotation to change this default behaviour! Locations should be stored as varchars in the db.
+
+#### FetchTypes
+
+1. Uncomment `loadClass(em);` in `JPAExample` and run the application. Check the generated sql statement.
+1. Add `fetch = FetchType.LAZY` to @OneToMany in `Klass`. Run the application again and compare the sql statement.
+1. Change the FetchType to EAGER. Check again.
+1. Think which fetch type is better? Why?
