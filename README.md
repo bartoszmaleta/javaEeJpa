@@ -15,3 +15,6 @@ Follow the instructions **point by point**, run the code and **check the results
 1. Again, use `mappedBy` to make the association bidirectional! (You have to drop a table manually if it's not needed anymore.)
 1. **IMPORTANT!** When using bidirectional relationships it is your responsibility to set the relations both ways to have the in-memory objects in sync with the database!
 1. Create a new enumerated class called `CCLocation` with values `MISKOLC`, `BUDAPEST`, and `KRAKOW`! Add it as an attribute to `Klass` and set it in its constructor! How does it get represented in the database? Use the `@Enumerated` annotation to change this default behaviour!
+1. Now try to remove a class at the end of the program (`em.remove(class)`). What happened? How to fix it?
+1. Read about `CascadeType`. Use the one that will remove all the students after removing a class which they belong to.
+1. Create a new enumerated class called `CCLocation` with values `MISKOLC`, `BUDAPEST`, and `KRAKOW`! Add it as an attribute to `Klass` and set it in its constructor! How does it get represented in the database? Use the `@Enumerated` annotation to change this default behaviour! Locations should be stored as varchars in the db.
