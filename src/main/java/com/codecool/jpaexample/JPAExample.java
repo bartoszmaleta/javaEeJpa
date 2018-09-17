@@ -34,7 +34,7 @@ public class JPAExample {
         em.persist(address);
         em.persist(student);
         transaction.commit();
-        System.out.println("Ödön saved.");
+        System.out.println("\n### Ödön saved.\n");
 
         Address address2 = new Address("Hungary", "6789", "Budapest", "Harap u. 3.");
         Student student2 = new Student("Aladár", "ktyfl@gmail.com", birthDate2, address2);
@@ -44,7 +44,7 @@ public class JPAExample {
         em.persist(student2);
         em.persist(address2);
         transaction.commit();
-        System.out.println("Aladár saved.");
+        System.out.println("\n### Aladár saved.\n");
     }
 
     public static void main(String[] args) {
@@ -53,16 +53,20 @@ public class JPAExample {
         EntityManager em = emf.createEntityManager();
 
         populateDb(em);
+        em.clear();
+
 
         Student foundStudent1 = em.find(Student.class, 1L);
-        System.out.println("--Found student #1");
+        System.out.println("\n--Found student #1");
         System.out.println("----name----" + foundStudent1.getName());
         System.out.println("----address of student----" + foundStudent1.getAddress());
+        System.out.println();
 
         Student foundStudent2 = em.find(Student.class, 2L);
-        System.out.println("--Found student #2");
+        System.out.println("\n--Found student #2");
         System.out.println("----name----" + foundStudent2.getName());
         System.out.println("----address of student----" + foundStudent2.getAddress());
+        System.out.println();
 
         Address foundAddress1 = em.find(Address.class, 1L);
         System.out.println("--Found address #1");
