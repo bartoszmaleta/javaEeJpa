@@ -1,4 +1,4 @@
-## JPA Example Project
+## JPA Training Project
 
 Follow the instructions **point by point**, run the code and **check the results** in the database. Check the states of in-memory objects as well (use the debugger, logging, or `System.out`). Read about all annotations used -> [Hibernate Documentation](http://docs.jboss.org/hibernate/orm/5.2/userguide/html_single/Hibernate_User_Guide.html)
 
