@@ -4,13 +4,17 @@ import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Klass {
+@Entity(name = "Class")
+public class Module {
+    @Id
     private String name;
+
+    @OneToMany(mappedBy = "module", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
     private Set<Student> students = new HashSet<>();
 
-    public Klass() {}
+    public Module() {}
 
-    public Klass(String name) {
+    public Module(String name) {
         this.name = name;
     }
 

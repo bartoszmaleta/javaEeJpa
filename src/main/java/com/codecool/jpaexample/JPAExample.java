@@ -1,6 +1,7 @@
 package com.codecool.jpaexample;
 
 import com.codecool.jpaexample.model.*;
+import com.codecool.jpaexample.model.Module;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -24,7 +25,7 @@ public class JPAExample {
             e.printStackTrace();
         }
 
-        Klass classBp2 = new Klass("Budapest 2016-2");
+        Module classBp2 = new Module("Budapest 2016-2");
         Address address = new Address("Hungary", "1234", "Budapest", "Macskakő út 5.");
         Student student = new Student("Ödön", "odon@tokodon.hu", birthDate1, address);
         classBp2.addStudent(student);
@@ -49,7 +50,7 @@ public class JPAExample {
 
     public static void loadClass(EntityManager em){
         em.clear();
-        Klass klass = em.find(Klass.class, 1L);
+        Module module = em.find(Module.class, 1L);
     }
 
     public static void main(String[] args) {

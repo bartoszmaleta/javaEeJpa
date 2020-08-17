@@ -1,10 +1,8 @@
 package com.codecool.jpaexample.model;
 
 import javax.persistence.*;
-import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.List;
 
 @Entity
 public class Student {
@@ -15,15 +13,20 @@ public class Student {
 
     private String name;
 
+    @Column (unique = true, nullable = false)
     private String email;
 
     @Temporal(TemporalType.DATE)
     private Date dateOfBirth;
 
+    @Transient
     private long age;
 
-    @OneToOne
+    @OneToOne(mappedBy = "student")
     private Address address;
+
+    @ManyToOne
+    private Module module;
 
     public Student() {
     }
