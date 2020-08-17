@@ -8,6 +8,7 @@ public class Address {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
+
     private String country;
 
     @Column(name = "zip", length = 4)

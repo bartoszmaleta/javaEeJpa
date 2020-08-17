@@ -81,7 +81,7 @@ public class JPAExample {
         System.out.println("--Found address #2");
         System.out.println("----address----" + foundAddress2.getAddr());
 
-//        loadClass(em);
+        loadClass(em);
 
         em.close();
         emf.close();

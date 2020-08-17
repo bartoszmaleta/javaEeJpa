@@ -8,13 +8,14 @@ import java.util.List;
 @Entity
 public class Student {
 
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
     private String name;
 
-    @Column (unique = true, nullable = false)
+    @Column(unique = true, nullable = false)
     private String email;
 
     @Temporal(TemporalType.DATE)
@@ -48,9 +49,11 @@ public class Student {
         this(name, email, dateOfBirth);
         this.address = address;
     }
-    public Student(String name, String email, Date dateOfBirth, Address address, List<String> phoneNumbers) {
+
+    public Student(String name, String email, Date dateOfBirth, Address address, Module module, List<String> phoneNumbers) {
         this(name, email, dateOfBirth);
         this.address = address;
+        this.module = module;
         this.phoneNumbers = phoneNumbers;
     }
 
@@ -107,5 +110,4 @@ public class Student {
                 ", address id=" + address.getId() +
                 '}';
     }
-
 }
