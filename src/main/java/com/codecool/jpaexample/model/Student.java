@@ -3,6 +3,7 @@ package com.codecool.jpaexample.model;
 import javax.persistence.*;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
 
 @Entity
 public class Student {
@@ -28,6 +29,10 @@ public class Student {
     @ManyToOne
     private Module module;
 
+    @ElementCollection
+    @Column(name = "phone")
+    private List<String> phoneNumbers;
+
     public Student() {
     }
 
@@ -42,6 +47,11 @@ public class Student {
     public Student(String name, String email, Date dateOfBirth, Address address) {
         this(name, email, dateOfBirth);
         this.address = address;
+    }
+    public Student(String name, String email, Date dateOfBirth, Address address, List<String> phoneNumbers) {
+        this(name, email, dateOfBirth);
+        this.address = address;
+        this.phoneNumbers = phoneNumbers;
     }
 
     public long getId() {
