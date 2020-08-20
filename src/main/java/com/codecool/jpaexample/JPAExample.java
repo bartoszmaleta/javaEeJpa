@@ -7,6 +7,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
+import java.sql.*;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -46,6 +47,16 @@ public class JPAExample {
         em.persist(address2);
         transaction.commit();
         System.out.println("\n### Aladár saved.\n");
+
+
+
+        Stats stats = new Stats(23, 42);
+        Pokemon pokemon = new Pokemon(124, "Pikachu", TypeEnum.ELECTRIC, stats);
+
+        transaction.begin();
+        em.persist(pokemon);
+        transaction.commit();
+        System.out.println("pikachu saved");
     }
 
     public static void loadClass(EntityManager em){
@@ -53,7 +64,7 @@ public class JPAExample {
         Module module = em.find(Module.class, 1L);
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SQLException {
 
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("jpaexamplePU");
         EntityManager em = emf.createEntityManager();
@@ -81,10 +92,45 @@ public class JPAExample {
         System.out.println("--Found address #2");
         System.out.println("----address----" + foundAddress2.getAddr());
 
+
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        Pokemon foundPokemon = em.find(Pokemon.class, 1);
+        System.out.println("\n--Found pokemon #1");
+        System.out.println("----name----" + foundPokemon.getName());
+//        System.out.println("----name----" + foundPokemon.getName() + foundPokemon.getStats().getDamage());
+
+
+
+        PokemonDao pokemonDao = new PokemonDao();
+        Pokemon pikachu = pokemonDao.getPokemonNameById(1);
+        System.out.println(pikachu.getName() + " qweqweqweqweqweqwew");
+        System.out.println("ghfjdskghfjdkghfjdkfhjd");
+        System.out.println("ghfjdskghfjdkghfjdkfhjd");
+        System.out.println("ghfjdskghfjdkghfjdkfhjd");
+        System.out.println("ghfjdskghfjdkghfjdkfhjd");
+
+        System.out.println(pikachu.getStats().toString());
+        System.out.println("damage = " + pikachu.getStats().getDamage());
+        System.out.println("ghfjdskghfjdkghfjdkfhjd");
+        System.out.println("ghfjdskghfjdkghfjdkfhjd");
+        System.out.println("ghfjdskghfjdkghfjdkfhjd");
+        System.out.println("ghfjdskghfjdkghfjdkfhjd");
+        System.out.println("ghfjdskghfjdkghfjdkfhjd");
+
         loadClass(em);
 
         em.close();
         emf.close();
 
     }
+
+
 }

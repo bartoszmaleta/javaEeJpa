@@ -269,3 +269,603 @@
     drop table if exists Student cascade
 
     drop table if exists Student_phoneNumbers cascade
+
+    alter table Address 
+       drop constraint FK4q6j38bhikrv1pjbmde52gg7
+
+    alter table Student 
+       drop constraint FKj1985smviea2r5y0sk0lj1eia
+
+    alter table Student_phoneNumbers 
+       drop constraint FKcw90n87pnmj6u2f5njkcg779l
+
+    drop table if exists Address cascade
+
+    drop table if exists Class cascade
+
+    drop table if exists Student cascade
+
+    drop table if exists Student_phoneNumbers cascade
+
+    alter table Address 
+       drop constraint FK4q6j38bhikrv1pjbmde52gg7
+
+    alter table Student 
+       drop constraint FKj1985smviea2r5y0sk0lj1eia
+
+    alter table Student_phoneNumbers 
+       drop constraint FKcw90n87pnmj6u2f5njkcg779l
+
+    drop table if exists Address cascade
+
+    drop table if exists Class cascade
+
+    drop table if exists Pokemon cascade
+
+    drop table if exists Student cascade
+
+    drop table if exists Student_phoneNumbers cascade
+
+    alter table Address 
+       drop constraint FK4q6j38bhikrv1pjbmde52gg7
+
+    alter table Student 
+       drop constraint FKj1985smviea2r5y0sk0lj1eia
+
+    alter table Student_phoneNumbers 
+       drop constraint FKcw90n87pnmj6u2f5njkcg779l
+
+    drop table if exists Address cascade
+
+    drop table if exists Class cascade
+
+    drop table if exists Pokemon cascade
+
+    drop table if exists Student cascade
+
+    drop table if exists Student_phoneNumbers cascade
+
+    alter table Address 
+       drop constraint FK4q6j38bhikrv1pjbmde52gg7
+
+    alter table Student 
+       drop constraint FKj1985smviea2r5y0sk0lj1eia
+
+    alter table Student_phoneNumbers 
+       drop constraint FKcw90n87pnmj6u2f5njkcg779l
+
+    drop table if exists Address cascade
+
+    drop table if exists Class cascade
+
+    drop table if exists Pokemon cascade
+
+    drop table if exists Student cascade
+
+    drop table if exists Student_phoneNumbers cascade
+
+    alter table Address 
+       drop constraint FK4q6j38bhikrv1pjbmde52gg7
+
+    alter table Student 
+       drop constraint FKj1985smviea2r5y0sk0lj1eia
+
+    alter table Student_phoneNumbers 
+       drop constraint FKcw90n87pnmj6u2f5njkcg779l
+
+    drop table if exists Address cascade
+
+    drop table if exists Class cascade
+
+    drop table if exists Pokemon cascade
+
+    drop table if exists Student cascade
+
+    drop table if exists Student_phoneNumbers cascade
+
+    alter table Address 
+       drop constraint FK4q6j38bhikrv1pjbmde52gg7
+
+    alter table Student 
+       drop constraint FKj1985smviea2r5y0sk0lj1eia
+
+    alter table Student_phoneNumbers 
+       drop constraint FKcw90n87pnmj6u2f5njkcg779l
+
+    drop table if exists Address cascade
+
+    drop table if exists Class cascade
+
+    drop table if exists Pokemon cascade
+
+    drop table if exists Student cascade
+
+    drop table if exists Student_phoneNumbers cascade
+
+    alter table Address 
+       drop constraint FK4q6j38bhikrv1pjbmde52gg7
+
+    alter table Student 
+       drop constraint FKj1985smviea2r5y0sk0lj1eia
+
+    alter table Student_phoneNumbers 
+       drop constraint FKcw90n87pnmj6u2f5njkcg779l
+
+    drop table if exists Address cascade
+
+    drop table if exists Class cascade
+
+    drop table if exists Pokemon cascade
+
+    drop table if exists Student cascade
+
+    drop table if exists Student_phoneNumbers cascade
+
+    alter table Address 
+       drop constraint FK4q6j38bhikrv1pjbmde52gg7
+
+    alter table Student 
+       drop constraint FKj1985smviea2r5y0sk0lj1eia
+
+    alter table Student_phoneNumbers 
+       drop constraint FKcw90n87pnmj6u2f5njkcg779l
+
+    drop table if exists Address cascade
+
+    drop table if exists Class cascade
+
+    drop table if exists Pokemon cascade
+
+    drop table if exists Student cascade
+
+    drop table if exists Student_phoneNumbers cascade
+
+    alter table Address 
+       drop constraint FK4q6j38bhikrv1pjbmde52gg7
+
+    alter table Student 
+       drop constraint FKj1985smviea2r5y0sk0lj1eia
+
+    alter table Student_phoneNumbers 
+       drop constraint FKcw90n87pnmj6u2f5njkcg779l
+
+    drop table if exists Address cascade
+
+    drop table if exists Class cascade
+
+    drop table if exists Pokemon cascade
+
+    drop table if exists Student cascade
+
+    drop table if exists Student_phoneNumbers cascade
+
+    alter table Address 
+       drop constraint FK4q6j38bhikrv1pjbmde52gg7
+
+    alter table Student 
+       drop constraint FKj1985smviea2r5y0sk0lj1eia
+
+    alter table Student_phoneNumbers 
+       drop constraint FKcw90n87pnmj6u2f5njkcg779l
+
+    drop table if exists Address cascade
+
+    drop table if exists Class cascade
+
+    drop table if exists Pokemon cascade
+
+    drop table if exists Student cascade
+
+    drop table if exists Student_phoneNumbers cascade
+
+    alter table Address 
+       drop constraint FK4q6j38bhikrv1pjbmde52gg7
+
+    alter table Student 
+       drop constraint FKj1985smviea2r5y0sk0lj1eia
+
+    alter table Student_phoneNumbers 
+       drop constraint FKcw90n87pnmj6u2f5njkcg779l
+
+    drop table if exists Address cascade
+
+    drop table if exists Class cascade
+
+    drop table if exists Pokemon cascade
+
+    drop table if exists Student cascade
+
+    drop table if exists Student_phoneNumbers cascade
+
+    alter table Address 
+       drop constraint FK4q6j38bhikrv1pjbmde52gg7
+
+    alter table Student 
+       drop constraint FKj1985smviea2r5y0sk0lj1eia
+
+    alter table Student_phoneNumbers 
+       drop constraint FKcw90n87pnmj6u2f5njkcg779l
+
+    drop table if exists Address cascade
+
+    drop table if exists Class cascade
+
+    drop table if exists Pokemon cascade
+
+    drop table if exists Student cascade
+
+    drop table if exists Student_phoneNumbers cascade
+
+    alter table Address 
+       drop constraint FK4q6j38bhikrv1pjbmde52gg7
+
+    alter table Student 
+       drop constraint FKj1985smviea2r5y0sk0lj1eia
+
+    alter table Student_phoneNumbers 
+       drop constraint FKcw90n87pnmj6u2f5njkcg779l
+
+    drop table if exists Address cascade
+
+    drop table if exists Class cascade
+
+    drop table if exists Pokemon cascade
+
+    drop table if exists Student cascade
+
+    drop table if exists Student_phoneNumbers cascade
+
+    alter table Address 
+       drop constraint FK4q6j38bhikrv1pjbmde52gg7
+
+    alter table Student 
+       drop constraint FKj1985smviea2r5y0sk0lj1eia
+
+    alter table Student_phoneNumbers 
+       drop constraint FKcw90n87pnmj6u2f5njkcg779l
+
+    drop table if exists Address cascade
+
+    drop table if exists Class cascade
+
+    drop table if exists Pokemon cascade
+
+    drop table if exists Student cascade
+
+    drop table if exists Student_phoneNumbers cascade
+
+    alter table Address 
+       drop constraint FK4q6j38bhikrv1pjbmde52gg7
+
+    alter table Pokemon 
+       drop constraint FKqm00j77he717k43fnbomp423j
+
+    alter table Student 
+       drop constraint FKj1985smviea2r5y0sk0lj1eia
+
+    alter table Student_phoneNumbers 
+       drop constraint FKcw90n87pnmj6u2f5njkcg779l
+
+    drop table if exists Address cascade
+
+    drop table if exists Class cascade
+
+    drop table if exists Pokemon cascade
+
+    drop table if exists Stats cascade
+
+    drop table if exists Student cascade
+
+    drop table if exists Student_phoneNumbers cascade
+
+    alter table Address 
+       drop constraint FK4q6j38bhikrv1pjbmde52gg7
+
+    alter table Pokemon 
+       drop constraint FKqm00j77he717k43fnbomp423j
+
+    alter table Student 
+       drop constraint FKj1985smviea2r5y0sk0lj1eia
+
+    alter table Student_phoneNumbers 
+       drop constraint FKcw90n87pnmj6u2f5njkcg779l
+
+    drop table if exists Address cascade
+
+    drop table if exists Class cascade
+
+    drop table if exists Pokemon cascade
+
+    drop table if exists Stats cascade
+
+    drop table if exists Student cascade
+
+    drop table if exists Student_phoneNumbers cascade
+
+    alter table Address 
+       drop constraint FK4q6j38bhikrv1pjbmde52gg7
+
+    alter table Pokemon 
+       drop constraint FKqm00j77he717k43fnbomp423j
+
+    alter table Student 
+       drop constraint FKj1985smviea2r5y0sk0lj1eia
+
+    alter table Student_phoneNumbers 
+       drop constraint FKcw90n87pnmj6u2f5njkcg779l
+
+    drop table if exists Address cascade
+
+    drop table if exists Class cascade
+
+    drop table if exists Pokemon cascade
+
+    drop table if exists Stats cascade
+
+    drop table if exists Student cascade
+
+    drop table if exists Student_phoneNumbers cascade
+
+    alter table Address 
+       drop constraint FK4q6j38bhikrv1pjbmde52gg7
+
+    alter table Pokemon 
+       drop constraint FKqm00j77he717k43fnbomp423j
+
+    alter table Student 
+       drop constraint FKj1985smviea2r5y0sk0lj1eia
+
+    alter table Student_phoneNumbers 
+       drop constraint FKcw90n87pnmj6u2f5njkcg779l
+
+    drop table if exists Address cascade
+
+    drop table if exists Class cascade
+
+    drop table if exists Pokemon cascade
+
+    drop table if exists Stats cascade
+
+    drop table if exists Student cascade
+
+    drop table if exists Student_phoneNumbers cascade
+
+    alter table Address 
+       drop constraint FK4q6j38bhikrv1pjbmde52gg7
+
+    alter table stats 
+       drop constraint FK2nnisji6s5b2pr5x8jpv7jch0
+
+    alter table Student 
+       drop constraint FKj1985smviea2r5y0sk0lj1eia
+
+    alter table Student_phoneNumbers 
+       drop constraint FKcw90n87pnmj6u2f5njkcg779l
+
+    drop table if exists Address cascade
+
+    drop table if exists Class cascade
+
+    drop table if exists pokemon cascade
+
+    drop table if exists stats cascade
+
+    drop table if exists Student cascade
+
+    drop table if exists Student_phoneNumbers cascade
+
+    alter table Address 
+       drop constraint FK4q6j38bhikrv1pjbmde52gg7
+
+    alter table stats 
+       drop constraint FK2nnisji6s5b2pr5x8jpv7jch0
+
+    alter table Student 
+       drop constraint FKj1985smviea2r5y0sk0lj1eia
+
+    alter table Student_phoneNumbers 
+       drop constraint FKcw90n87pnmj6u2f5njkcg779l
+
+    drop table if exists Address cascade
+
+    drop table if exists Class cascade
+
+    drop table if exists pokemon cascade
+
+    drop table if exists stats cascade
+
+    drop table if exists Student cascade
+
+    drop table if exists Student_phoneNumbers cascade
+
+    alter table Address 
+       drop constraint FK4q6j38bhikrv1pjbmde52gg7
+
+    alter table stats 
+       drop constraint FK2nnisji6s5b2pr5x8jpv7jch0
+
+    alter table Student 
+       drop constraint FKj1985smviea2r5y0sk0lj1eia
+
+    alter table Student_phoneNumbers 
+       drop constraint FKcw90n87pnmj6u2f5njkcg779l
+
+    drop table if exists Address cascade
+
+    drop table if exists Class cascade
+
+    drop table if exists pokemon cascade
+
+    drop table if exists stats cascade
+
+    drop table if exists Student cascade
+
+    drop table if exists Student_phoneNumbers cascade
+
+    alter table Address 
+       drop constraint FK4q6j38bhikrv1pjbmde52gg7
+
+    alter table stats 
+       drop constraint FK2nnisji6s5b2pr5x8jpv7jch0
+
+    alter table Student 
+       drop constraint FKj1985smviea2r5y0sk0lj1eia
+
+    alter table Student_phoneNumbers 
+       drop constraint FKcw90n87pnmj6u2f5njkcg779l
+
+    drop table if exists Address cascade
+
+    drop table if exists Class cascade
+
+    drop table if exists pokemon cascade
+
+    drop table if exists stats cascade
+
+    drop table if exists Student cascade
+
+    drop table if exists Student_phoneNumbers cascade
+
+    alter table Address 
+       drop constraint FK4q6j38bhikrv1pjbmde52gg7
+
+    alter table stats 
+       drop constraint FK2nnisji6s5b2pr5x8jpv7jch0
+
+    alter table Student 
+       drop constraint FKj1985smviea2r5y0sk0lj1eia
+
+    alter table Student_phoneNumbers 
+       drop constraint FKcw90n87pnmj6u2f5njkcg779l
+
+    drop table if exists Address cascade
+
+    drop table if exists Class cascade
+
+    drop table if exists pokemon cascade
+
+    drop table if exists stats cascade
+
+    drop table if exists Student cascade
+
+    drop table if exists Student_phoneNumbers cascade
+
+    alter table Address 
+       drop constraint FK4q6j38bhikrv1pjbmde52gg7
+
+    alter table stats 
+       drop constraint FK2nnisji6s5b2pr5x8jpv7jch0
+
+    alter table Student 
+       drop constraint FKj1985smviea2r5y0sk0lj1eia
+
+    alter table Student_phoneNumbers 
+       drop constraint FKcw90n87pnmj6u2f5njkcg779l
+
+    drop table if exists Address cascade
+
+    drop table if exists Class cascade
+
+    drop table if exists pokemon cascade
+
+    drop table if exists stats cascade
+
+    drop table if exists Student cascade
+
+    drop table if exists Student_phoneNumbers cascade
+
+    alter table Address 
+       drop constraint FK4q6j38bhikrv1pjbmde52gg7
+
+    alter table stats 
+       drop constraint FK2nnisji6s5b2pr5x8jpv7jch0
+
+    alter table Student 
+       drop constraint FKj1985smviea2r5y0sk0lj1eia
+
+    alter table Student_phoneNumbers 
+       drop constraint FKcw90n87pnmj6u2f5njkcg779l
+
+    drop table if exists Address cascade
+
+    drop table if exists Class cascade
+
+    drop table if exists pokemon cascade
+
+    drop table if exists stats cascade
+
+    drop table if exists Student cascade
+
+    drop table if exists Student_phoneNumbers cascade
+
+    alter table Address 
+       drop constraint FK4q6j38bhikrv1pjbmde52gg7
+
+    alter table stats 
+       drop constraint FK2nnisji6s5b2pr5x8jpv7jch0
+
+    alter table Student 
+       drop constraint FKj1985smviea2r5y0sk0lj1eia
+
+    alter table Student_phoneNumbers 
+       drop constraint FKcw90n87pnmj6u2f5njkcg779l
+
+    drop table if exists Address cascade
+
+    drop table if exists Class cascade
+
+    drop table if exists pokemon cascade
+
+    drop table if exists stats cascade
+
+    drop table if exists Student cascade
+
+    drop table if exists Student_phoneNumbers cascade
+
+    alter table Address 
+       drop constraint FK4q6j38bhikrv1pjbmde52gg7
+
+    alter table stats 
+       drop constraint FK2nnisji6s5b2pr5x8jpv7jch0
+
+    alter table Student 
+       drop constraint FKj1985smviea2r5y0sk0lj1eia
+
+    alter table Student_phoneNumbers 
+       drop constraint FKcw90n87pnmj6u2f5njkcg779l
+
+    drop table if exists Address cascade
+
+    drop table if exists Class cascade
+
+    drop table if exists pokemon cascade
+
+    drop table if exists stats cascade
+
+    drop table if exists Student cascade
+
+    drop table if exists Student_phoneNumbers cascade
+
+    alter table Address 
+       drop constraint FK4q6j38bhikrv1pjbmde52gg7
+
+    alter table stats 
+       drop constraint FK2nnisji6s5b2pr5x8jpv7jch0
+
+    alter table Student 
+       drop constraint FKj1985smviea2r5y0sk0lj1eia
+
+    alter table Student_phoneNumbers 
+       drop constraint FKcw90n87pnmj6u2f5njkcg779l
+
+    drop table if exists Address cascade
+
+    drop table if exists Class cascade
+
+    drop table if exists pokemon cascade
+
+    drop table if exists stats cascade
+
+    drop table if exists Student cascade
+
+    drop table if exists Student_phoneNumbers cascade
