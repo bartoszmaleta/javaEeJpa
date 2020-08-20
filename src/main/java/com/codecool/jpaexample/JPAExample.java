@@ -10,8 +10,10 @@ import javax.persistence.Persistence;
 import java.sql.*;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
 
 public class JPAExample {
 
@@ -57,6 +59,24 @@ public class JPAExample {
         em.persist(pokemon);
         transaction.commit();
         System.out.println("pikachu saved");
+
+
+
+        Stats magikarpStats = new Stats(1, 1);
+        Pokemon magikarp = new Pokemon(139, "Magikarp", TypeEnum.WATER, magikarpStats);
+        List<Pokemon> pokemonsList = new ArrayList<>();
+        pokemonsList.add(pokemon);
+        pokemonsList.add(magikarp);
+
+        Trainer ash = new Trainer("ash", "ketchum", 12, 3232, "ash@gmail.com", pokemonsList);
+        transaction.begin();
+        em.persist(ash);
+        transaction.commit();
+
+
+
+
+
     }
 
     public static void loadClass(EntityManager em){
@@ -110,7 +130,7 @@ public class JPAExample {
 
 
         PokemonDao pokemonDao = new PokemonDao();
-        Pokemon pikachu = pokemonDao.getPokemonNameById(1);
+        Pokemon pikachu = pokemonDao.getPokemonById(1);
         System.out.println(pikachu.getName() + " qweqweqweqweqweqwew");
         System.out.println("ghfjdskghfjdkghfjdkfhjd");
         System.out.println("ghfjdskghfjdkghfjdkfhjd");
@@ -119,8 +139,15 @@ public class JPAExample {
 
         System.out.println(pikachu.getStats().toString());
         System.out.println("damage = " + pikachu.getStats().getDamage());
+
         System.out.println("ghfjdskghfjdkghfjdkfhjd");
         System.out.println("ghfjdskghfjdkghfjdkfhjd");
+
+        TrainerDao trainerDao = new TrainerDao();
+        Trainer trainer = trainerDao.getTrainerById(1);
+        System.out.println("name of trainer = " + trainer.getFirstname());
+
+
         System.out.println("ghfjdskghfjdkghfjdkfhjd");
         System.out.println("ghfjdskghfjdkghfjdkfhjd");
         System.out.println("ghfjdskghfjdkghfjdkfhjd");

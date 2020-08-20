@@ -11,7 +11,7 @@ public class PokemonDao {
     public PokemonDao() {
     }
 
-    public Pokemon getPokemonNameById(int id) throws SQLException {
+    public Pokemon getPokemonById(int id) throws SQLException {
         Connection con = connectionFactory.connect();
         Pokemon pokemon = new Pokemon();
         try {
@@ -41,7 +41,6 @@ public class PokemonDao {
         }finally {
             con.close();
         }
-
         return pokemon;
     }
 
