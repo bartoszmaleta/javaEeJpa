@@ -122,7 +122,7 @@ public class JPAExample {
         System.out.println();
         System.out.println();
         System.out.println();
-        Pokemon foundPokemon = em.find(Pokemon.class, 1);
+        Pokemon foundPokemon = em.find(Pokemon.class, 2);
         System.out.println("\n--Found pokemon #1");
         System.out.println("----name----" + foundPokemon.getName());
 //        System.out.println("----name----" + foundPokemon.getName() + foundPokemon.getStats().getDamage());
